@@ -11,16 +11,7 @@ import ObjectMapper
 
 class GalleryResultModel: Mappable {
     
-    // MARK: - Model Keys
-    
-    enum CodingKeys: String {
-        case imageUrl = "imageUrl"
-        case imageId = "imageId"
-    }
-    
     // MARK: - Model Variables
-    
-
     typealias Images = (id: String, url: String)
     var imagesArray: [Images] = []
     

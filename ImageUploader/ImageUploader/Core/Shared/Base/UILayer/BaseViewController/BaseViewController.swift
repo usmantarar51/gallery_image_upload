@@ -9,12 +9,25 @@
 import UIKit
 
 class BaseViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         setupAppearance()
     }
-    
-    func setupAppearance() {}
 
+    func setupAppearance() {}
+}
+
+// MARK: - Loadable
+
+extension BaseViewController: Loadable {
+    @objc func showLoading() {
+        DispatchQueue.main.async {
+            ProgressIndicator.shared.show()
+        }
+    }
+
+    @objc func hideLoading() {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = false
+        ProgressIndicator.shared.hide()
+    }
 }

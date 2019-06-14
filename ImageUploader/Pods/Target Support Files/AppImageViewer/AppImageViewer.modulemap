@@ -1,0 +1,6 @@
+framework module AppImageViewer {
+  umbrella header "AppImageViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}

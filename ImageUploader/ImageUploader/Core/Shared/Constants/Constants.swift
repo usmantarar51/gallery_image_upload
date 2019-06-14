@@ -1,9 +1,9 @@
 //
-//  Constants.swift
-//  MovieWebService
+//  AppDelegate.swift
+//  ImageUploader
 //
-//  Created by Afroz on 26/04/2019.
-//  Copyright © 2019 Afroz. All rights reserved.
+//  Created by Muhammad Usman Tarar on 6/12/19.
+//  Copyright © 2019 Usman Tarar. All rights reserved.
 //
 
 import UIKit
@@ -23,5 +23,19 @@ class Constants: NSObject {
     
     struct URLS {
         static let baseURL = ""
+    }
+    
+    struct EndPoints {
+        static let firebaseStorageBucket = "gs://imageuploader-fb437.appspot.com"
+        static let image = "images"
+    }
+    
+    struct FirebaseDatabase {
+        static let name = "result"
+    }
+    
+    struct ProgressIndicator {
+        static let radius: CGFloat = 18
+        static let strokeWidth: CGFloat = 3
     }
 }

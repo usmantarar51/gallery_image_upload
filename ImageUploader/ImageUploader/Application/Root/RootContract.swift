@@ -1,10 +1,11 @@
 //
-//  RootContract.swift
-//  Swyp
+//  AppSetup.swift
+//  ImageUploader
 //
-//  Created by Khawar Shahzad on 27/02/2019.
-//  Copyright © 2019 Etisalat. All rights reserved.
+//  Created by Muhammad Usman Tarar on 6/12/19.
+//  Copyright © 2019 Usman Tarar. All rights reserved.
 //
+
 
 import UIKit
 

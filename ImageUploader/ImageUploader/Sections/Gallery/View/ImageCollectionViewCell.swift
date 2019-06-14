@@ -8,6 +8,12 @@
 
 import UIKit
 
-class ImageCollectionViewCell: UICollectionViewCell {
+class ImageCollectionViewCell: BaseCollectionViewCell {
+    // MARK: - IBOutlets
     
+    @IBOutlet var imageView: UIImageView!
+    
+    // MARK: - Methods
+    
+    override func updateCell(model: Any, indexPath: IndexPath) {}
 }

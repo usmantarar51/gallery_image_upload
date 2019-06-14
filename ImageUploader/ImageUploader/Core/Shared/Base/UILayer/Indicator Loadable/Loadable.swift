@@ -8,6 +8,7 @@
 
 import UIKit
 
-class Loadable: NSObject {
-
+protocol Loadable: class {
+    func showLoading()
+    func hideLoading()
 }

@@ -6,8 +6,16 @@
 //  Copyright © 2019 Usman Tarar. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class AppSetup: NSObject {
-
+extension AppDelegate {
+    internal func setupApp(window: UIWindow) {
+        boot(window: window)
+    }
+    
+    internal func boot(window: UIWindow) {
+        RootRouter().presentRootScreen(in: window)
+    }
+    
 }
