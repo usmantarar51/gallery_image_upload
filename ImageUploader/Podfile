@@ -14,8 +14,8 @@ target 'ImageUploader' do
   pod 'IGRPhotoTweaks'
   pod 'Kingfisher'
   pod 'YPImagePicker'
-  pod 'MaterialComponents/ActivityIndicator'
   pod 'AppImageViewer'
+  pod 'SVProgressHUD'
 
   # Pods for ImageUploader
 

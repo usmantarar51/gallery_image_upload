@@ -33,10 +33,10 @@ extension GalleryPresenter: GalleryPresentation {
         interactor?.fireBaseAnonymouslyLogin()
     }
 
-    func getUploadedImagesFromServer() {
+    func downloadImagesFromFirebase() {
         view?.showLoading()
         showIndicator()
-        interactor?.getUploadedImagesFromServer()
+        interactor?.downloadImagesFromFirebase()
     }
 }
 

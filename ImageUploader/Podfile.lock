@@ -76,17 +76,6 @@ PODS:
   - IGRPhotoTweaks (1.0.8)
   - Kingfisher (5.5.0)
   - leveldb-library (1.20)
-  - MaterialComponents/ActivityIndicator (84.3.0):
-    - MaterialComponents/Palettes
-    - MaterialComponents/private/Application
-    - MDFInternationalization
-    - MotionAnimator (~> 2.0)
-  - MaterialComponents/Palettes (84.3.0)
-  - MaterialComponents/private/Application (84.3.0)
-  - MDFInternationalization (2.0.0)
-  - MotionAnimator (2.8.1):
-    - MotionInterchange (~> 1.6)
-  - MotionInterchange (1.6.0)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
@@ -98,6 +87,7 @@ PODS:
     - SDWebImage/Core (= 4.4.6)
   - SDWebImage/Core (4.4.6)
   - SteviaLayout (4.4.4)
+  - SVProgressHUD (2.2.5)
   - YPImagePicker (4.0.0):
     - PryntTrimmerView (~> 3.0.0)
     - SteviaLayout (~> 4.4.1)
@@ -111,8 +101,8 @@ DEPENDENCIES:
   - Firebase/Storage
   - IGRPhotoTweaks
   - Kingfisher
-  - MaterialComponents/ActivityIndicator
   - ObjectMapper
+  - SVProgressHUD
   - YPImagePicker
 
 SPEC REPOS:
@@ -132,15 +122,12 @@ SPEC REPOS:
     - IGRPhotoTweaks
     - Kingfisher
     - leveldb-library
-    - MaterialComponents
-    - MDFInternationalization
-    - MotionAnimator
-    - MotionInterchange
     - nanopb
     - ObjectMapper
     - PryntTrimmerView
     - SDWebImage
     - SteviaLayout
+    - SVProgressHUD
     - YPImagePicker
 
 SPEC CHECKSUMS:
@@ -159,17 +146,14 @@ SPEC CHECKSUMS:
   IGRPhotoTweaks: e348cec1dfc7afc36ff0f10115637bc3b03836fa
   Kingfisher: 6fe5e67a90fd335e49b0f5c075ff55ac5ebedd94
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
-  MaterialComponents: 897e26e71faa95ea71c183e056443e9344682faf
-  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
-  MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
-  MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
   PryntTrimmerView: 53ac64053c7ce63cb3e27f54090f52da0734891d
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   SteviaLayout: 523469269059f2c6da02820bb2ff28a5fe0780aa
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   YPImagePicker: 8039f89ad79281545fa868486f32d9bf5d65ede1
 
-PODFILE CHECKSUM: 8556bc5b2fd2d3182df7488a48fee2f423437234
+PODFILE CHECKSUM: ee2c68fccbd45701042a9a4f70e65ee8c4e89759
 
 COCOAPODS: 1.6.1

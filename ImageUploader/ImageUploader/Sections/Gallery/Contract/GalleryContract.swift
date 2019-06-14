@@ -18,14 +18,14 @@ protocol GalleryView: Loadable {
 
 protocol GalleryPresentation: class {
     // TODO: Declare presentation methods
-    func getUploadedImagesFromServer()
+    func downloadImagesFromFirebase()
     func fireBaseAnonymouslyLogin()
     func uploadImages(imageDataArray: [Data])
 }
 
 protocol GalleryUseCase: class {
     // TODO: Declare use case methods
-    func getUploadedImagesFromServer()
+    func downloadImagesFromFirebase()
     func fireBaseAnonymouslyLogin()
     func uploadImages(imageDataArray: [Data])
 }

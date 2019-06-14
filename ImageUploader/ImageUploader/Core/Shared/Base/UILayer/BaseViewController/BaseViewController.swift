@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class BaseViewController: UIViewController {
     override func viewDidLoad() {
@@ -22,12 +23,11 @@ class BaseViewController: UIViewController {
 extension BaseViewController: Loadable {
     @objc func showLoading() {
         DispatchQueue.main.async {
-            ProgressIndicator.shared.show()
+            SVProgressHUD.show()
         }
     }
 
     @objc func hideLoading() {
-        UIApplication.shared.isNetworkActivityIndicatorVisible = false
-        ProgressIndicator.shared.hide()
+        SVProgressHUD.dismiss()
     }
 }

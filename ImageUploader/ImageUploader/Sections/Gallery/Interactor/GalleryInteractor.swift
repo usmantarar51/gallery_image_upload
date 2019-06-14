@@ -23,6 +23,8 @@ extension GalleryInteractor: GalleryUseCase {
             if let urlArray = urls {
                 self.services.uploadImagesURLToDatabase(imgUrlArray: urlArray, successHandler: {
                     self.output?.imagesUploaded()
+                }, errorHandler: { (error) in
+                    self.output?.errorReceived(error: error! as NSError)
                 })
             }
         }) { (error) in
@@ -40,7 +42,7 @@ extension GalleryInteractor: GalleryUseCase {
         }
     }
 
-    func getUploadedImagesFromServer() {
+    func downloadImagesFromFirebase() {
         services.downloadImagesFromFirebase { resultModel in
             if let imagesArray = resultModel?.imagesArray {
                 self.output?.imagesReceivedFromServer(images: imagesArray)

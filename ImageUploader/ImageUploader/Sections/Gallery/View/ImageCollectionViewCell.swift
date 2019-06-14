@@ -8,12 +8,14 @@
 
 import UIKit
 
-class ImageCollectionViewCell: BaseCollectionViewCell {
+class ImageCollectionViewCell: UICollectionViewCell {
     // MARK: - IBOutlets
     
     @IBOutlet var imageView: UIImageView!
     
     // MARK: - Methods
     
-    override func updateCell(model: Any, indexPath: IndexPath) {}
+    func updateCell(model: GalleryResultModel.Images) {
+        imageView.kf.setImage(with: URL(string: model.url))
+    }
 }
