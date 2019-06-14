@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>416528360341-mo21qkrk39pffgbpvpp4r2v99mv0uese.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.416528360341-mo21qkrk39pffgbpvpp4r2v99mv0uese</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDIGZN1pv7gvwWo5r-ThT37FCtJ77VNbMw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>416528360341</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sparknetworktask.imageuploader</string>
+	<key>PROJECT_ID</key>
+	<string>imageuploader-fb437</string>
+	<key>STORAGE_BUCKET</key>
+	<string>imageuploader-fb437.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:416528360341:ios:f7108c6c557db4fd</string>
+	<key>DATABASE_URL</key>
+	<string>https://imageuploader-fb437.firebaseio.com</string>
+</dict>
+</plist>
